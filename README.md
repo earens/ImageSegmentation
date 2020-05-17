@@ -28,6 +28,7 @@ Each model requires different imports and versions:
 
 
 **DeepLabv3+**
+
 The code includes a pretrained model with two different backbones (mobilenetv2 and xception). It was trained on the Pascal Voc dataset and therefore only detects its included classes. However, you can provide any image input via its corresponding url.
 
 **UNet:**
