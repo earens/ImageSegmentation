@@ -8,22 +8,16 @@ The repository contains three different models for image segmentation
 
 Each model requires different imports and versions:
 
-1. DeepLabv3+:
-  * tensorflow==1.x
-  * matplotlib
-  * pillow
-  * os
 
-2. UNet:
-  * tensorflow==2.x
-  * keras_unet
-  * matplotlib
-  * glob
-  * os
-  * pillow
-  * sklearn
-  
-3. RNN:
+| DeepLabv3+        | UNet            | RNN |
+|-------------------|-----------------|-----|
+| tensorflow==1.x   | tensorflow==2.x |     |
+| matplotlib        | matplotlib      |     |
+| pillow            | pillow          |     |
+| os                | os              |     |
+|                   | keras_unet      |     |
+|                   | glob            |     |
+|                   | sklearn         |     |
 
 
 
