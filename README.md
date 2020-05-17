@@ -27,14 +27,14 @@ Each model requires different imports and versions:
 
 
 
-#DeepLabv3+
+**DeepLabv3+**
 The code includes a pretrained model with two different backbones (mobilenetv2 and xception). It was trained on the Pascal Voc dataset and therefore only detects its included classes. However, you can provide any image input via its corresponding url.
 
-#UNet:
+**UNet:**
 
 
 
-#Own dataset
+**Custom data**
 
 If you plan on preparing you own dataset for training, this pixel annotation tool might be helpful:
 https://github.com/abreheret/PixelAnnotationTool
