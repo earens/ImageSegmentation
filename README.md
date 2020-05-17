@@ -10,13 +10,5 @@ For each model to run different requieremnts are necessary.
 For 
 1. DeepLabv3+ this libarys are needed:
 
-2.UNet this libarys are needed:
-numpy
-matplotlib
-glob
-os
-sys
-PIL 
-keras_unet
-sklearn
-tensorflow, version = 2.x
+2. UNet this libarys are needed:
+numpy, matplotlib, glob, os, sys, pillow, keras_unet, sklearn, tensorflow, version = 2.x
