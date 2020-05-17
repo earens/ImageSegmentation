@@ -24,6 +24,8 @@ Each model requires different imports and versions:
 
 The code includes a pretrained model with two different backbones (mobilenetv2 and xception). It was trained on the Pascal Voc dataset and therefore only detects its included classes. However, you can provide any image input via its corresponding url.
 
+https://github.com/tensorflow/models/blob/master/research/deeplab/deeplab_demo.ipynb
+
 **UNet:**
 
 The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with one class only. If you want to try a dataset with different amounts of classes you have to adapt the plot function.
