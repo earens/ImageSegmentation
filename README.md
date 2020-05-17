@@ -1,23 +1,22 @@
 # Image Segmentation
 
-The repository contains three different models for image segmentation
+The repository contains two different models for image segmentation
 
 1. Pretrained DeepLabv3+ on Pascal Voc
 2. Unet for medical data 
-3. Rnn for segmenting images based on their description
 
 Each model requires different imports and versions:
 
 
-| DeepLabv3+        | UNet            | RNN |
-|-------------------|-----------------|-----|
-| tensorflow==1.x   | tensorflow==2.x |     |
-| matplotlib        | matplotlib      |     |
-| pillow            | pillow          |     |
-| os                | os              |     |
-|                   | keras_unet      |     |
-|                   | glob            |     |
-|                   | sklearn         |     |
+| DeepLabv3+        | UNet            | 
+|-------------------|-----------------|
+| tensorflow==1.x   | tensorflow==2.x |     
+| matplotlib        | matplotlib      |     
+| pillow            | pillow          |     
+| os                | os              |     
+|                   | keras_unet      |     
+|                   | glob            |     
+|                   | sklearn         |  
 
 
 
