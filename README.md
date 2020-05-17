@@ -26,6 +26,7 @@ Each model requires different imports and versions:
 The code includes a pretrained model with two different backbones (mobilenetv2 and xception). It was trained on the Pascal Voc dataset and therefore only detects its included classes. However, you can provide any image input via its corresponding url.
 
 **UNet:**
+The code includes a unet which can detect object segemnentation with different or one classe/s. This code uses a dataset with one class, which is for medical images. If you want to try a dataset with different classes you may use some other plot function.
 
 
 
