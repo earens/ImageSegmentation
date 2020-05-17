@@ -34,3 +34,4 @@ The code includes a unet which performs image segemnentation for masks with n nu
 If you plan on preparing you own dataset for training, this pixel annotation tool might be helpful:
 https://github.com/abreheret/PixelAnnotationTool
 
+Sarah, Emilia
