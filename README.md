@@ -1,4 +1,4 @@
-# ImageSegmentation
+# Image Segmentation
 
 The repository contains three different models for image segmentation
 
