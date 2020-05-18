@@ -37,9 +37,9 @@ The code includes a unet which performs image segemnentation for masks with n nu
 
 **DeepLabv3+ WebCam**
 
-Apart from the common application on the Pascal Voc dataset, this code offers an application on webcam data. In order to run it you need to keep the utils folder(tensorflow/)
+Apart from the common application on the Pascal Voc dataset, this code offers an application on webcam data. In order to run it you need to keep the utils folder (tensorflow/models/tree/master/research/deeplab) which is already included in this repository, in the same folder as the webcam code.
 
-https://github.com/tensorflow/models/blob/master/research/deeplab/deeplab_demo.ipynb
+
 
 **Custom data**
 
