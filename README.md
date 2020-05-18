@@ -5,18 +5,22 @@ The repository contains two different models for image segmentation
 1. Pretrained DeepLabv3+ on Pascal Voc
 2. Unet for medical data 
 
+As well as code for a webcam application:
+
+3. DeepLabv3+ on Pascal Voc for webcam data
+
 Each model requires different imports and versions:
 
 
-| DeepLabv3+        | UNet            | 
-|-------------------|-----------------|
-| tensorflow==1.x   | tensorflow==2.x |     
-| matplotlib        | matplotlib      |     
-| pillow            | pillow          |     
-| os                | os              |     
-|                   | keras_unet      |     
-|                   | glob            |     
-|                   | sklearn         |  
+| DeepLabv3+        | UNet            | DeepLabv3+ Webcam|
+|-------------------|-----------------|------------------|
+| tensorflow==1.x   | tensorflow==2.x | tensorflow==1.x  | 
+| matplotlib        | matplotlib      | matplotlib       |
+| pillow            | pillow          | pillow           |
+| os                | os              | os               |    
+|                   | keras_unet      | open CV          |    
+|                   | glob            |                  | 
+|                   | sklearn         |                  | 
 
 
 
@@ -30,6 +34,12 @@ https://github.com/tensorflow/models/blob/master/research/deeplab/deeplab_demo.i
 
 The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with one class only. If you want to try a dataset with different amounts of classes you have to adapt the plot function.
 
+
+**DeepLabv3+ WebCam**
+
+Apart from the common application on the Pascal Voc dataset, this code offers an application on webcam data. In order to run it you need to keep the utils folder(tensorflow/)
+
+https://github.com/tensorflow/models/blob/master/research/deeplab/deeplab_demo.ipynb
 
 **Custom data**
 
