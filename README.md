@@ -3,7 +3,7 @@
 The repository contains two different models for image segmentation
 
 1. Pretrained DeepLabv3+ on Pascal Voc
-2. Unet for medical data 
+2. Unet for medical data of differnt datasets
 
 As well as code for a webcam application:
 
@@ -37,7 +37,7 @@ The code includes a unet which performs image segemnentation for masks with n nu
 
 **UNet with Covid-19 dataset:**
 
-The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with multiple classes. The segmentation is not perfect on this dataset and we are still working on this.
+The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with multiple classes. The segmentation is not perfect on this dataset and we are still working on this. The requierments are the same for both UNets
 
 
 **DeepLabv3+ WebCam**
