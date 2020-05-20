@@ -32,7 +32,12 @@ https://github.com/tensorflow/models/blob/master/research/deeplab/deeplab_demo.i
 
 **UNet:**
 
-The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with one class only. If you want to try a dataset with different amounts of classes you have to adapt the plot function.
+The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with one class only. If you want to try a dataset with different amounts of classes you have to copy the plot function from UNet_corona.
+
+
+**UNet with Covid-19 dataset:**
+
+The code includes a unet which performs image segemnentation for masks with n numbers of classes. This code loads a medical dataset with multiple classes. The segmentation is not perfect on this dataset and we are still working on this.
 
 
 **DeepLabv3+ WebCam**
